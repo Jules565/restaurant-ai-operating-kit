@@ -1,0 +1,12 @@
+STRIPE + VERCEL SETUP — €14.99
+
+IMPORTANT: upload the ENTIRE project, including the /api folder.
+The /api folder contains create-checkout-session.js and stripe-success.js.
+If /api is missing, clicking checkout can produce a JSON.parse error because Vercel returns an HTML 404 page.
+
+Vercel Environment Variable:
+STRIPE_SECRET_KEY = your Stripe secret live key (sk_live_...)
+
+Do not put the secret key in GitHub or HTML.
+
+The public price and server-side Stripe amount are both €14.99 (1499 cents).

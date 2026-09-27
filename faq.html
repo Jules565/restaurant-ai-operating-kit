@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FAQ · Restaurant AI Operating Kit</title>
+<meta name="description" content="Frequently asked questions about Restaurant AI Operating Kit.">
+<meta property="og:title" content="FAQ">
+<meta property="og:description" content="Frequently asked questions about Restaurant AI Operating Kit.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23e7a45f'/%3E%3Ctext x='50' y='64' font-size='55' text-anchor='middle' fill='%23110d08'%3ER%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0b0c0d;--panel:#121416;--panel2:#171a1d;--text:#f4f1ea;--muted:#a7a9a7;
+  --line:rgba(255,255,255,.09);--accent:#e7a45f;--accent2:#f0c38f;--max:1180px;
+  --shadow:0 24px 80px rgba(0,0,0,.35);--radius:22px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 80% -10%,rgba(231,164,95,.12),transparent 30%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(calc(100% - 40px),var(--max));margin:auto}
+header{position:sticky;top:0;z-index:50;background:rgba(11,12,13,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.03em}.brand-mark{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#9b5d27);display:grid;place-items:center;color:#17100a;font-size:14px}
+.navlinks{display:flex;gap:24px;color:#c5c6c4;font-size:14px}.navlinks a:hover{color:white}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:999px;padding:13px 20px;font-weight:800;font-size:14px;cursor:pointer;transition:.2s}
+.btn-primary{background:var(--text);color:#111}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 35px rgba(255,255,255,.12)}
+.btn-accent{background:var(--accent);color:#17100a}.btn-accent:hover{transform:translateY(-2px);background:var(--accent2)}
+.btn-ghost{border-color:var(--line);color:var(--text);background:rgba(255,255,255,.03)}
+.mobile-toggle{display:none;background:none;border:0;color:white;font-size:25px}
+.hero{padding:105px 0 80px;text-align:center}.eyebrow{display:inline-flex;border:1px solid var(--line);background:rgba(255,255,255,.03);padding:7px 12px;border-radius:999px;font-size:12px;color:#d6d6d1;margin-bottom:22px}
+h1{font-size:clamp(48px,7vw,84px);line-height:.98;letter-spacing:-.065em;margin:0 auto 24px;max-width:920px}
+.hero p.lead{max-width:700px;margin:0 auto 30px;color:var(--muted);font-size:19px}
+.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.micro{font-size:12px;color:#777;margin-top:14px}.glow{color:var(--accent)}
+.mockup{margin:70px auto 0;max-width:1020px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,#17191b,#0f1011);box-shadow:var(--shadow);padding:12px;text-align:left}
+.window{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#101214}.windowbar{height:42px;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 14px;gap:7px}.dot{width:8px;height:8px;border-radius:50%;background:#5d5f60}.dash{display:grid;grid-template-columns:210px 1fr;min-height:360px}.side{padding:22px;border-right:1px solid var(--line);background:#0d0f10}.side strong{display:block;margin-bottom:20px}.side div{padding:9px 0;color:#7f8383;font-size:12px}.side .active{color:white}.dashmain{padding:24px}.dashgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.mini{border:1px solid var(--line);background:#151719;border-radius:15px;padding:17px}.mini b{display:block;font-size:24px;margin-bottom:4px}.mini span{font-size:12px;color:#858989}.section{padding:105px 0}.section-head{max-width:760px;margin-bottom:45px}.section-head h2{font-size:clamp(34px,5vw,56px);line-height:1.02;letter-spacing:-.05em;margin:0 0 14px}.section-head p{color:var(--muted);font-size:17px}
+.grid{display:grid;gap:16px}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-4{grid-template-columns:repeat(4,1fr)}.card{border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.018));border-radius:var(--radius);padding:26px}.card h3{margin:0 0 8px;font-size:19px;letter-spacing:-.025em}.card p{margin:0;color:var(--muted);font-size:14px}.icon{width:42px;height:42px;border-radius:13px;background:rgba(231,164,95,.12);color:var(--accent);display:grid;place-items:center;margin-bottom:20px;font-weight:900}
+.problem{background:#0f1112;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.number{font-size:12px;color:var(--accent);font-weight:800;margin-bottom:20px}.assistant-card{min-height:205px}.assistant-card ul{padding-left:18px;margin:15px 0 0;color:#9da09f;font-size:13px}
+.workflow{display:flex;align-items:flex-start;gap:15px}.stepnum{flex:0 0 34px;height:34px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;color:var(--accent);font-weight:800}
+.example{display:grid;grid-template-columns:1fr 1fr;gap:16px}.example-box{border-radius:20px;border:1px solid var(--line);padding:26px;background:#101213}.label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:800;margin-bottom:15px}.prompt{color:#d5d6d2;font-size:14px}.result{color:#aeb2af;font-size:14px}
+.price{display:grid;grid-template-columns:1.2fr .8fr;gap:20px;align-items:stretch}.price-card{border:1px solid var(--line);border-radius:26px;background:linear-gradient(145deg,#17191a,#0e0f10);padding:34px}.price-num{font-size:64px;letter-spacing:-.06em;font-weight:900}.price-list{list-style:none;padding:0;margin:25px 0}.price-list li{padding:9px 0;color:#c9cbc8;border-bottom:1px solid var(--line)}.price-list li::before{content:"✓";color:var(--accent);margin-right:10px;font-weight:900}
+.faq{border-top:1px solid var(--line)}details{border-bottom:1px solid var(--line);padding:20px 0}summary{cursor:pointer;font-weight:750;list-style:none;display:flex;justify-content:space-between;gap:20px}summary::-webkit-details-marker{display:none}summary:after{content:"+";color:var(--accent)}details[open] summary:after{content:"−"}details p{color:var(--muted);max-width:800px;margin:12px 0 0}
+.page-hero{padding:85px 0 55px}.page-hero h1{font-size:clamp(42px,6vw,68px);margin:0 0 18px}.page-hero p{max-width:720px;color:var(--muted);font-size:18px}
+.steps{display:grid;gap:14px}.step{display:grid;grid-template-columns:70px 1fr;gap:20px;padding:25px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.025)}.step strong{font-size:28px;color:var(--accent)}
+.checkout{display:grid;grid-template-columns:1fr .8fr;gap:20px;padding:30px 0 100px}.formcard,.ordercard{border:1px solid var(--line);background:var(--panel);border-radius:24px;padding:30px}.field{margin:15px 0}.field label{display:block;font-size:13px;margin-bottom:7px;color:#c6c8c4}.field input{width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:#0d0f10;color:white}.notice{padding:14px;border:1px dashed rgba(231,164,95,.4);border-radius:13px;color:#c8c2b7;background:rgba(231,164,95,.06);font-size:13px}
+footer{border-top:1px solid var(--line);padding:45px 0 30px;margin-top:80px}.foot{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px}.foot p{color:#777;font-size:13px}.foot h4{margin:0 0 13px}.foot a{display:block;color:#8e9290;font-size:13px;margin:8px 0}.foot a:hover{color:white}.copyright{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);color:#666;font-size:12px}
+.center{text-align:center}.legal{max-width:850px}.legal h2{margin-top:40px}.legal p,.legal li{color:#a7aaa7}.legal ul{padding-left:20px}
+.mobile-cta{display:none}
+@media(max-width:900px){.navlinks{display:none}.mobile-toggle{display:block}.nav .btn{display:none}.grid-4{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:1fr 1fr}.price,.checkout{grid-template-columns:1fr}.foot{grid-template-columns:1fr 1fr}.dash{grid-template-columns:1fr}.side{display:none}}
+@media(max-width:620px){.container{width:min(calc(100% - 28px),var(--max))}.hero{padding:75px 0 55px}.section{padding:75px 0}.grid-3,.grid-4,.example{grid-template-columns:1fr}.dashgrid{grid-template-columns:1fr}.mockup{margin-top:45px}.hero p.lead{font-size:17px}.price-num{font-size:54px}.foot{grid-template-columns:1fr}.mobile-cta{display:block;position:fixed;bottom:14px;left:14px;right:14px;z-index:60}.mobile-cta .btn{width:100%;box-shadow:0 15px 40px rgba(0,0,0,.5)}}
+</style></head><body><header><div class="container nav">
+<a class="brand" href="index.html"><span class="brand-mark">R</span>Restaurant AI</a>
+<nav class="navlinks"><a href="product.html">The Kit</a><a href="how-it-works.html">How it works</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+<a class="btn btn-accent" href="checkout.html">Get the Kit — €14.99</a><button class="mobile-toggle" aria-label="Open menu">☰</button>
+</div></header>
+<main><section class="page-hero"><div class="container"><div class="eyebrow">FAQ</div><h1>Everything you need to know.</h1><p>Clear answers before you decide whether the kit fits your restaurant.</p></div></section>
+<section class="section" style="padding-top:30px"><div class="container legal">
+<div class="faq">
+<details open><summary>What is Restaurant AI Operating Kit?</summary><p>A digital toolkit containing 50 workflows, 7 specialized AI assistants, 15 templates, a 30-day content planner, a quick prompt cheat sheet and a Start Here guide.</p></details>
+<details><summary>Is this a subscription?</summary><p>No. The intended price is €14.99 as a one-time purchase. There is no recurring subscription fee.</p></details>
+<details><summary>Do I need ChatGPT Plus?</summary><p>No. The workflows are designed to work with ChatGPT and Claude. The limits and features of the AI provider you use still apply.</p></details>
+<details><summary>Does it work with the free version of ChatGPT?</summary><p>The workflows themselves do not require a special integration. You can use them with a compatible ChatGPT account, subject to the provider's current limits.</p></details>
+<details><summary>Does it work with Claude?</summary><p>Yes. The product is designed around prompts and workflows that can be adapted to Claude as well as ChatGPT.</p></details>
+<details><summary>Do I need AI experience?</summary><p>No. The kit is designed to give you a structured starting point instead of requiring you to know how to write prompts from scratch.</p></details>
+<details><summary>Is this suitable for cafés?</summary><p>Yes. The workflows can be adapted to cafés and other hospitality businesses with similar marketing, customer and operational needs.</p></details>
+<details><summary>Is this suitable for small restaurants?</summary><p>Yes. The workflows are designed around common restaurant tasks rather than a specific company size.</p></details>
+<details><summary>How do I receive the product?</summary><p>The intended experience is instant digital delivery after successful payment. The actual delivery provider will be connected before launch.</p></details>
+<details><summary>Is the product downloadable?</summary><p>Yes, the final product is intended to be delivered as digital files. The exact file format and delivery mechanism will be configured before launch.</p></details>
+<details><summary>Can I use the workflows multiple times?</summary><p>The kit is designed for repeated use. You can adapt a workflow to different tasks and situations.</p></details>
+<details><summary>Does the kit automatically post on social media?</summary><p>No. It helps you create and structure content. You decide what to publish and where.</p></details>
+<details><summary>Does it guarantee more customers or revenue?</summary><p>No. AI tools cannot guarantee business outcomes. The kit is designed to help you work more systematically; results depend on how you use the outputs and your business context.</p></details>
+<details><summary>Can I use it on multiple restaurants?</summary><p>Licensing terms have not yet been finalized. Add the final commercial-use/license policy before launch rather than assuming one.</p></details>
+<details><summary>What happens after payment?</summary><p>The intended flow is payment → confirmation → secure digital delivery. The payment and delivery providers will be connected before the public launch.</p></details>
+<details><summary>Can I get a refund?</summary><p>The final refund policy has not yet been defined. The Refund Policy page contains a placeholder that must be completed before launch.</p></details>
+</div></div></section></main><footer><div class="container foot">
+<div><a class="brand" href="index.html"><span class="brand-mark">R</span>Restaurant AI</a><p>A premium AI toolkit for restaurants, cafés and hospitality teams.</p></div>
+<div><h4>Product</h4><a href="product.html">The Kit</a><a href="how-it-works.html">How it works</a><a href="faq.html">FAQ</a><a href="checkout.html">Checkout</a></div>
+<div><h4>Company</h4><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="refund.html">Refund policy</a><a href="legal.html">Legal notice</a></div>
+</div><div class="container copyright">© <span data-year></span> Restaurant AI Operating Kit. All rights reserved.</div></footer><script>
+document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+const toggle=document.querySelector('.mobile-toggle');
+const links=document.querySelector('.navlinks');
+if(toggle){toggle.addEventListener('click',()=>{links.style.display=links.style.display==='flex'?'none':'flex';links.style.position='absolute';links.style.top='76px';links.style.left='0';links.style.right='0';links.style.padding='20px';links.style.background='#0b0c0d';links.style.flexDirection='column';links.style.borderBottom='1px solid rgba(255,255,255,.09)'})}
+</script></body></html>
