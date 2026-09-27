@@ -1,0 +1,20 @@
+LEGAL LAUNCH NOTES
+
+Completed:
+- Privacy Policy
+- Terms & Conditions
+- Refund & Withdrawal Policy
+- Contact page
+- Legal Notice
+- Contact email: jules.sn08@gmail.com
+
+Still required before real commercial launch:
+1. Insert the exact legal seller identity/status.
+2. Insert the exact business/postal address.
+3. Insert registration identifiers (RNE/RCS, etc.) where applicable.
+4. Insert VAT number where applicable.
+5. Insert the final hosting provider legal details.
+6. Configure the payment provider and the checkout consent wording for immediate digital delivery / loss of withdrawal right where applicable.
+7. Add a compliant cookie consent mechanism if non-essential cookies/trackers are introduced.
+
+Do not present the placeholder legal fields as final until they have been completed.
